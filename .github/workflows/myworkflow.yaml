@@ -18,5 +18,5 @@ jobs:
             username: ${{ secrets.ACR_USERNAME }}
             password: ${{ secrets.ACR_PASSWORD }}
             login-server: githubactionsworkshop.azurecr.io
-            repository: $GITHUB_REPOSITORY
+            repository: githubactionsworkshop.azurecr.io/githubactionsworkshop
             tags: latest,${{ github.sha}}
